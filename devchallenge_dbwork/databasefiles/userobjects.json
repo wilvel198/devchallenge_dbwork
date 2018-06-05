@@ -1,0 +1,15 @@
+{ "objectType":"USER",
+  "firstName":"wil",
+  "lastName": "velasquez",
+  "username":"",
+  "password":"",
+  "address":"1234 somewhere",
+  "city":"round rock",
+  "state":"texas",
+  "zip":"78665",
+  "phoneNumber":"512-555-555",
+  "emailaddress":"wvelasquez@gmail.com",
+  "userid":"12345678"
+}
+
+

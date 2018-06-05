@@ -1,0 +1,30 @@
+CREATE TABLE USER_ACCOUNTS (
+    userid int NOT NULL AUTO_INCREMENT,
+    firstName varchar(255) NOT NULL,
+    lastName varchar(255),
+    username varchar(255),
+    password varchar(1000),
+    address varchar(300),
+    city varchar(255),
+    state varchar(255),
+    zip varchar(255),
+    phoneNumber varchar(255),
+    emailAddress varchar(255),
+    
+    PRIMARY KEY (userid)
+);
+
+
+CREATE TABLE USER_DATA (
+ id int NOT NULL AUTO_INCREMENT,
+ emailAddress varchar(255),
+ giffyEmbeddedURL varchar(255),
+ giffyTitle varchar(255),
+ giffyURL varchar(255),
+ giffyID varchar(255),
+ categories varchar(255)
+
+ PRIMARY KEY (id)
+
+);
+
