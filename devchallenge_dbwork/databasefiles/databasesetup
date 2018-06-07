@@ -22,7 +22,7 @@ CREATE TABLE USER_DATA (
  giffyTitle varchar(255),
  giffyURL varchar(255),
  giffyID varchar(255),
- categories varchar(255)
+ categories varchar(255),
 
  PRIMARY KEY (id)
 
